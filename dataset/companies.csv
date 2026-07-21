@@ -1,0 +1,80 @@
+C001,Malabar Timber Industries,Wood Processing,Kozhikode,Kerala,11.2588,75.7804,Logs,Sawdust
+C002,Western Ghats Wood Products,Wood Processing,Kannur,Kerala,11.8745,75.3704,Logs,Wood Chips
+C003,Travancore Timber Mills,Wood Processing,Kottayam,Kerala,9.5916,76.5222,Logs,Bark
+C004,Periyar Wood Industries,Wood Processing,Ernakulam,Kerala,10.0159,76.3419,Logs,Sawdust
+C005,Anamudi Forest Products,Wood Processing,Idukki,Kerala,9.8490,76.9750,Logs,Wood Shavings
+C006,HighRange Timber Works,Wood Processing,Pathanamthitta,Kerala,9.2648,76.7870,Logs,Sawdust
+C007,Heritage Furniture Works,Furniture Manufacturing,Thrissur,Kerala,10.5276,76.2144,Sawdust,Wood Offcuts
+C008,Malanad Furnishings,Furniture Manufacturing,Kozhikode,Kerala,11.2588,75.7804,Wood Boards,Wood Scraps
+C009,Cochin Interior Creations,Furniture Manufacturing,Ernakulam,Kerala,9.9816,76.2999,Plywood,Wood Dust
+C010,Kerala Modular Furniture,Furniture Manufacturing,Kollam,Kerala,8.8932,76.6141,MDF Boards,Laminates Scrap
+C011,GreenCraft Furniture,Furniture Manufacturing,Palakkad,Kerala,10.7867,76.6548,Wood Panels,Wood Dust
+C012,Travancore Paper Products,Paper Manufacturing,Kottayam,Kerala,9.5916,76.5222,Waste Paper,Paper Sludge
+C013,Western Paper Mills,Paper Manufacturing,Kozhikode,Kerala,11.2588,75.7804,Recycled Paper,Fiber Sludge
+C014,Cochin Packaging Papers,Paper Manufacturing,Ernakulam,Kerala,9.9816,76.2999,Waste Paper,Paper Trim
+C015,GreenLeaf Paper Industries,Paper Manufacturing,Thrissur,Kerala,10.5276,76.2144,Paper Pulp,Pulp Residue
+C016,Malabar Eco Papers,Paper Manufacturing,Kannur,Kerala,11.8745,75.3704,Recovered Paper,Paper Sludge
+C017,Cochin Eco Plastics,Plastic Recycling,Ernakulam,Kerala,9.9816,76.2999,Plastic Scrap,Plastic Flakes
+C018,BlueCycle Plastics,Plastic Recycling,Kollam,Kerala,8.8932,76.6141,Plastic Waste,Plastic Pellets
+C019,Green Polymer Industries,Plastic Manufacturing,Palakkad,Kerala,10.7867,76.6548,Plastic Pellets,Plastic Scrap
+C020,Western Plastic Solutions,Plastic Manufacturing,Kozhikode,Kerala,11.2588,75.7804,Recycled Plastic,Plastic Trimmings
+C021,Ocean Polymer Works,Plastic Manufacturing,Alappuzha,Kerala,9.4981,76.3388,Plastic Granules,Plastic Scrap
+C022,EcoPack Plastics,Plastic Packaging,Thrissur,Kerala,10.5276,76.2144,Plastic Film,Plastic Offcuts
+C023,Periyar Cement Works,Cement Manufacturing,Ernakulam,Kerala,9.9816,76.2999,Fly Ash,Cement Dust
+C024,Malabar Cement Industries,Cement Manufacturing,Palakkad,Kerala,10.7867,76.6548,Fly Ash,Clinker Dust
+C025,Western Cement Products,Cement Manufacturing,Kannur,Kerala,11.8745,75.3704,Steel Slag,Cement Dust
+C026,Bharath Cement Solutions,Cement Manufacturing,Thrissur,Kerala,10.5276,76.2144,Fly Ash,Cement Kiln Dust
+C027,GreenBrick Industries,Brick Manufacturing,Palakkad,Kerala,10.7867,76.6548,Fly Ash,Broken Bricks
+C028,EcoClay Bricks,Brick Manufacturing,Kottayam,Kerala,9.5916,76.5222,Paper Sludge,Clay Waste
+C029,Malabar FlyAsh Bricks,Brick Manufacturing,Kozhikode,Kerala,11.2588,75.7804,Fly Ash,Broken Blocks
+C030,Western Eco Bricks,Brick Manufacturing,Thrissur,Kerala,10.5276,76.2144,Rice Husk Ash,Brick Dust
+C031,Anamudi Steel Works,Steel Manufacturing,Palakkad,Kerala,10.7867,76.6548,Steel Scrap,Steel Slag
+C032,Western Alloy Industries,Steel Manufacturing,Kozhikode,Kerala,11.2588,75.7804,Metal Scrap,Mill Scale
+C033,Cochin Steel Fabricators,Steel Fabrication,Ernakulam,Kerala,9.9816,76.2999,Steel Plates,Metal Shavings
+C034,Bharath Metal Industries,Steel Manufacturing,Kannur,Kerala,11.8745,75.3704,Steel Scrap,Steel Slag
+C035,IronEdge Engineering,Steel Fabrication,Thrissur,Kerala,10.5276,76.2144,Steel Bars,Metal Offcuts
+C036,Kerala Textile Mills,Textile Manufacturing,Kannur,Kerala,11.8745,75.3704,Cotton Fiber,Textile Scrap
+C037,BlueWeave Textiles,Textile Manufacturing,Thrissur,Kerala,10.5276,76.2144,Recycled Fiber,Fabric Scraps
+C038,Malabar Garments,Garment Manufacturing,Kozhikode,Kerala,11.2588,75.7804,Fabric Rolls,Cotton Waste
+C039,Western Eco Fabrics,Textile Manufacturing,Ernakulam,Kerala,9.9816,76.2999,Cotton Fiber,Dye Sludge
+C040,Travancore Textile Works,Textile Manufacturing,Kollam,Kerala,8.8932,76.6141,Yarn,Cutting Waste
+C041,Periyar Agro Foods,Food Processing,Palakkad,Kerala,10.7867,76.6548,Agricultural Produce,Food Waste
+C042,GreenHarvest Foods,Food Processing,Thrissur,Kerala,10.5276,76.2144,Rice,Rice Husk
+C043,Malabar Fruit Processors,Fruit Processing,Kozhikode,Kerala,11.2588,75.7804,Fruits,Fruit Peels
+C044,Cochin Spice Processors,Spice Processing,Ernakulam,Kerala,9.9816,76.2999,Spices,Organic Residue
+C045,Western Rice Mills,Rice Milling,Kannur,Kerala,11.8745,75.3704,Paddy,Rice Husk
+C046,GreenField Farms,Agriculture,Palakkad,Kerala,10.7867,76.6548,Organic Compost,Crop Residue
+C047,Kerala Agro Estates,Agriculture,Idukki,Kerala,9.8490,76.9750,Biofertilizer,Coconut Husk
+C048,Malanad Plantations,Agriculture,Wayanad,Kerala,11.6854,76.1320,Organic Compost,Coffee Husk
+C049,Western Organic Farms,Agriculture,Kottayam,Kerala,9.5916,76.5222,Biofertilizer,Banana Fiber Waste
+C050,Periyar Coconut Farms,Agriculture,Alappuzha,Kerala,9.4981,76.3388,Organic Compost,Coconut Shell
+C051,BlueRiver Dairy,Dairy,Kottayam,Kerala,9.5916,76.5222,Animal Feed,Whey
+C052,Western Dairy Products,Dairy,Thrissur,Kerala,10.5276,76.2144,Cattle Feed,Organic Sludge
+C053,GreenMilk Cooperative,Dairy,Ernakulam,Kerala,9.9816,76.2999,Animal Feed,Whey
+C054,EcoCycle Recycling,Waste Recycling,Kochi,Kerala,9.9312,76.2673,Mixed Recyclables,Recovered Materials
+C055,Kerala Material Recovery,Waste Recycling,Kollam,Kerala,8.8932,76.6141,Mixed Waste,Sorted Plastic
+C056,Western Metal Recycling,Metal Recycling,Palakkad,Kerala,10.7867,76.6548,Metal Scrap,Recovered Steel
+C057,GreenLoop Recovery,Waste Recycling,Kozhikode,Kerala,11.2588,75.7804,Paper Waste,Recovered Fiber
+C058,Malanad Biomass Energy,Biomass Power,Palakkad,Kerala,10.7867,76.6548,Rice Husk,Bottom Ash
+C059,Periyar BioEnergy,Bioenergy,Thrissur,Kerala,10.5276,76.2144,Organic Waste,Biogas Slurry
+C060,GreenFuel Renewables,Biomass Power,Kannur,Kerala,11.8745,75.3704,Wood Chips,Wood Ash
+C061,Malabar Ceramic Industries,Ceramic Manufacturing,Thrissur,Kerala,10.5276,76.2144,Glass Powder,Ceramic Dust
+C062,Periyar Glass Works,Glass Manufacturing,Ernakulam,Kerala,9.9816,76.2999,Glass Cullet,Glass Powder
+C063,Western Tiles & Ceramics,Tile Manufacturing,Kozhikode,Kerala,11.2588,75.7804,Fly Ash,Ceramic Waste
+C064,EcoBuild Concrete Solutions,Concrete Products,Palakkad,Kerala,10.7867,76.6548,Fly Ash,Concrete Slurry
+C065,Anamudi Ready Mix Concrete,Construction Materials,Kottayam,Kerala,9.5916,76.5222,Steel Slag,Concrete Washout
+C066,GreenRoad Infrastructure,Road Construction,Kochi,Kerala,9.9312,76.2673,Plastic Scrap,Asphalt Millings
+C067,Travancore Rubber Products,Rubber Manufacturing,Kottayam,Kerala,9.5916,76.5222,Rubber Crumbs,Rubber Scrap
+C068,Western Tyre Recyclers,Rubber Recycling,Kannur,Kerala,11.8745,75.3704,Waste Tyres,Rubber Crumbs
+C069,Cochin Paint Industries,Paint Manufacturing,Ernakulam,Kerala,9.9816,76.2999,Recovered Solvents,Paint Sludge
+C070,Green Chemical Solutions,Chemical Manufacturing,Alappuzha,Kerala,9.4981,76.3388,Industrial Chemicals,Chemical Residue
+C071,Malabar Packaging Solutions,Packaging Manufacturing,Kozhikode,Kerala,11.2588,75.7804,Recovered Paper,Packaging Scrap
+C072,Periyar Corrugated Boxes,Packaging Manufacturing,Ernakulam,Kerala,9.9816,76.2999,Paper Boards,Paper Offcuts
+C073,BlueRiver Composting,Organic Composting,Thrissur,Kerala,10.5276,76.2144,Organic Waste,Finished Compost
+C074,EcoSoil Organics,Composting,Palakkad,Kerala,10.7867,76.6548,Food Waste,Organic Compost
+C075,Western BioFertilizers,Biofertilizer Manufacturing,Idukki,Kerala,9.8490,76.9750,Biogas Slurry,Biofertilizer Residue
+C076,Cochin Animal Feed Mills,Animal Feed Manufacturing,Ernakulam,Kerala,9.9816,76.2999,Rice Husk,Rice Bran Waste
+C077,Malabar Aqua Feeds,Aquaculture Feed,Kozhikode,Kerala,11.2588,75.7804,Fish Processing Waste,Feed Dust
+C078,Travancore BioChar,Biochar Production,Wayanad,Kerala,11.6854,76.1320,Crop Residue,Biochar Ash
+C079,Green Energy Pellets,Biomass Fuel Manufacturing,Palakkad,Kerala,10.7867,76.6548,Sawdust,Pellet Dust
+C080,Kerala Industrial Symbiosis Hub,Industrial Resource Exchange,Kochi,Kerala,9.9312,76.2673,Mixed Industrial Byproducts,None
