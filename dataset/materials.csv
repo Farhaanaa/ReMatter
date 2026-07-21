@@ -1,3 +1,4 @@
+material_id,material_name,category,source_industry,physical_form,hazard_level,recyclable,biodegradable,description
 M001,Sawdust,Biomass,Wood Processing,Solid,Low,Yes,Yes,Fine wood particles generated during cutting and sawing
 M002,Wood Chips,Biomass,Wood Processing,Solid,Low,Yes,Yes,Chipped wood suitable for board manufacturing and biomass fuel
 M003,Wood Shavings,Biomass,Wood Processing,Solid,Low,Yes,Yes,Thin curled wood waste from planing operations
@@ -53,7 +54,7 @@ M052,Paper Offcuts,Packaging,Packaging Manufacturing,Solid,Low,Yes,Yes,Unused pa
 M053,Finished Compost,Organic,Composting,Solid,Low,Yes,Yes,Finished compost produced from organic waste
 M054,Biofertilizer Residue,Organic,Biofertilizer Production,Solid,Low,Yes,Yes,Residual organic matter from biofertilizer manufacturing
 M055,Rice Bran Waste,Agricultural,Rice Milling,Solid,Low,Yes,Yes,Rice bran by-product from milling operations
-M056,Fish Processing Waste,Marine,Fish Processing,Wet,Low,Yes,Yes,Fish heads, bones and trimmings generated during processing
+M056,Fish Processing Waste,Marine,Fish Processing,Wet,Low,Yes,Yes,Fish heads and bones and trimmings generated during processing
 M057,Feed Dust,Agricultural,Feed Manufacturing,Powder,Low,Yes,Yes,Fine dust generated during animal feed production
 M058,Biochar Ash,Biomass,Biochar Production,Powder,Low,Yes,No,Ash remaining after biochar production
 M059,Pellet Dust,Biomass,Biomass Fuel Production,Powder,Low,Yes,No,Fine dust generated during biomass pellet manufacturing

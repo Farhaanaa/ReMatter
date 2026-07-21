@@ -19,7 +19,7 @@ R017,M007,Cement Kiln Dust,Limited raw feed recycle,Cement Manufacturing,0.40,Re
 R018,M008,Clinker Dust,Cement raw feed,Cement Manufacturing,0.75,Fine clinker particles can be reintroduced into kiln feed
 R019,M009,Steel Slag,Cement admixture,Cement Manufacturing,0.85,Steel slag is a documented supplementary cementitious material
 R020,M009,Steel Slag,Concrete aggregate,Concrete Products,0.80,Used as partial aggregate replacement in structural concrete
-R021,M009,Steel Slag,Road base material,Road Construction,0.75,Common use as a stable, compactable road sub-base aggregate
+R021,M009,Steel Slag,Road base material,Road Construction,0.75,Common use as a stable and compactable road sub-base aggregate
 R022,M010,Mill Scale,Sinter feed/iron recovery,Steel Manufacturing,0.50,Reusable in-process but requires specific handling for iron recovery
 R023,M011,Metal Shavings,Furnace remelt input,Steel Manufacturing,0.85,Clean metal shavings are standard remelt feedstock
 R024,M012,Metal Offcuts,Furnace remelt input,Steel Manufacturing,0.85,Offcuts are directly remeltable scrap metal
@@ -68,7 +68,7 @@ R066,M035,Recovered Fiber,Paper manufacturing input,Paper Manufacturing,0.85,Rec
 R067,M036,Mixed Recyclables,Sorted material recovery input,Waste Recycling,0.50,Requires sorting before reuse in specific downstream material streams
 R068,M037,Glass Powder,Ceramic/tile filler,Tile Manufacturing,0.60,Finely ground glass is usable as a filler in ceramic tile bodies
 R069,M037,Glass Powder,Concrete pozzolanic additive,Concrete Products,0.50,Fine glass powder can act as a supplementary cementitious material
-R070,M038,Glass Cullet,Glass remelt input,Glass Manufacturing,0.95,Cullet is a direct, well-established remelt feedstock
+R070,M038,Glass Cullet,Glass remelt input,Glass Manufacturing,0.95,Cullet is a direct and well-established remelt feedstock
 R071,M038,Glass Cullet,Road surface aggregate (glassphalt),Road Construction,0.55,Crushed cullet is used in glass-modified asphalt surfacing
 R072,M039,Rubber Crumbs,Rubberized asphalt input,Road Construction,0.75,Crumb rubber is used in established rubberized-asphalt formulations
 R073,M039,Rubber Crumbs,Playground/flooring surfacing material,Construction Materials,0.60,Crumb rubber is a standard input in safety flooring products

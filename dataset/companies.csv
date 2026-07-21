@@ -1,3 +1,4 @@
+company_id,company_name,industry,district,state,latitude,longitude,input_material,output_waste
 C001,Malabar Timber Industries,Wood Processing,Kozhikode,Kerala,11.2588,75.7804,Logs,Sawdust
 C002,Western Ghats Wood Products,Wood Processing,Kannur,Kerala,11.8745,75.3704,Logs,Wood Chips
 C003,Travancore Timber Mills,Wood Processing,Kottayam,Kerala,9.5916,76.5222,Logs,Bark
