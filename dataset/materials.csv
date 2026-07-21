@@ -58,3 +58,33 @@ M057,Feed Dust,Agricultural,Feed Manufacturing,Powder,Low,Yes,Yes,Fine dust gene
 M058,Biochar Ash,Biomass,Biochar Production,Powder,Low,Yes,No,Ash remaining after biochar production
 M059,Pellet Dust,Biomass,Biomass Fuel Production,Powder,Low,Yes,No,Fine dust generated during biomass pellet manufacturing
 M060,Wood Ash,Biomass,Biomass Power,Powder,Low,Yes,No,Ash produced after combustion of wood biomass
+M061,Logs,Wood,Forestry,Solid,Low,Yes,Yes,Raw timber logs used as the primary input for wood processing industries
+M062,Wood Boards,Wood,Wood Products,Sheet,Low,Yes,Yes,Processed wooden boards used in furniture manufacturing
+M063,Plywood,Wood,Wood Products,Sheet,Low,Yes,Yes,Engineered wood panel made from bonded veneers
+M064,MDF Boards,Wood,Wood Products,Sheet,Low,Yes,Yes,Medium-density fibreboard used in furniture production
+M065,Wood Panels,Wood,Wood Products,Sheet,Low,Yes,Yes,Engineered wood panels for furniture and interior applications
+M066,Steel Scrap,Metal,Steel Recycling,Solid,Low,Yes,No,Ferrous scrap metal used as raw material in steel production
+M067,Metal Scrap,Metal,Metal Recycling,Solid,Low,Yes,No,Mixed recyclable metal scrap collected from industries
+M068,Steel Plates,Metal,Steel Manufacturing,Sheet,Low,Yes,No,Steel plates used in fabrication and engineering applications
+M069,Steel Bars,Metal,Steel Manufacturing,Solid,Low,Yes,No,Structural steel bars used in construction and fabrication
+M070,Plastic Waste,Plastic,Recycling,Solid,Low,Yes,No,Post-industrial and post-consumer plastic waste collected for recycling
+M071,Recycled Plastic,Plastic,Plastic Recycling,Pellets,Low,Yes,No,Processed recycled plastic ready for manufacturing
+M072,Plastic Granules,Plastic,Plastic Manufacturing,Pellets,Low,Yes,No,Virgin or recycled plastic granules used for moulding
+M073,Wood Dust,Biomass,Wood Processing,Powder,Low,Yes,Yes,Fine dust generated during wood cutting and sanding
+M074,Laminates Scrap,Composite,Furniture Manufacturing,Solid,Low,Limited,No,Discarded laminate sheets from furniture production
+M075,Recycled Fiber,Textile,Textile Recycling,Fibrous,Low,Yes,Yes,Recovered textile fibres for reuse in manufacturing
+M076,Cotton Fiber,Textile,Textile Industry,Fibrous,Low,Yes,Yes,Natural cotton fibre used in textile manufacturing
+M077,Fabric Rolls,Textile,Textile Industry,Fabric,Low,Yes,Yes,Rolls of fabric used in garment production
+M078,Yarn,Textile,Textile Industry,Fibrous,Low,Yes,Yes,Spun fibres used for weaving and knitting
+M079,Agricultural Produce,Agricultural,Farming,Solid,Low,Yes,Yes,General agricultural crops supplied to food processing industries
+M080,Rice,Agricultural,Rice Farming,Solid,Low,Yes,Yes,Harvested rice grains used in food processing
+M081,Fruits,Agricultural,Horticulture,Solid,Low,Yes,Yes,Fresh fruits supplied for food and beverage processing
+M082,Spices,Agricultural,Spice Farming,Solid,Low,Yes,Yes,Raw spices supplied for spice processing industries
+M083,Organic Compost,Organic,Composting,Solid,Low,Yes,Yes,Nutrient-rich compost used as an organic soil amendment
+M084,Biofertilizer,Organic,Biofertilizer Production,Solid,Low,Yes,Yes,Biological fertilizer containing beneficial microorganisms
+M085,Animal Feed,Agricultural,Feed Industry,Solid,Low,Yes,Yes,Processed feed supplied for livestock nutrition
+M086,Cattle Feed,Agricultural,Feed Industry,Solid,Low,Yes,Yes,Feed formulation specifically prepared for cattle
+M087,Mixed Waste,Mixed,Waste Collection,Solid,Medium,Yes,No,Unsegregated municipal and industrial waste requiring sorting
+M088,Paper Boards,Paper,Paper Industry,Sheet,Low,Yes,Yes,Paperboard sheets used in packaging manufacturing
+M089,Paper Pulp,Paper,Paper Industry,Wet Pulp,Low,Yes,Yes,Processed cellulose pulp used for paper production
+M090,Recovered Paper,Paper,Paper Recycling,Solid,Low,Yes,Yes,Recovered paper collected for recycling into new paper products

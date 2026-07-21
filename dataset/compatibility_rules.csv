@@ -1,0 +1,101 @@
+rule_id,source_material_id,source_material_name,application,target_industry,compatibility_score,reason
+R001,M001,Sawdust,Particleboard/MDF raw input,Furniture Manufacturing,0.85,Sawdust is a standard raw input for pressed-wood board manufacturing
+R002,M001,Sawdust,Biomass fuel pellets,Biomass Fuel Manufacturing,0.90,Widely used feedstock for wood pellet and briquette production
+R003,M001,Sawdust,Animal bedding material,Dairy,0.55,Fine sawdust is a common low-cost livestock bedding material
+R004,M002,Wood Chips,Biomass power fuel,Biomass Power,0.90,Established solid biomass fuel for power generation plants
+R005,M002,Wood Chips,Particleboard raw input,Furniture Manufacturing,0.75,Chipped wood is a base raw material for particleboard pressing
+R006,M002,Wood Chips,Mulch/landscaping material,Agriculture,0.55,Wood chips are commonly reused as ground-cover mulch
+R007,M003,Wood Shavings,Biomass fuel,Biomass Fuel Manufacturing,0.80,Low-moisture shavings are suitable pellet and briquette feedstock
+R008,M003,Wood Shavings,Animal bedding material,Dairy,0.55,Curled wood shavings are a standard livestock bedding material
+R009,M004,Bark,Biomass fuel,Biomass Power,0.60,Usable as boiler fuel though with lower calorific value than clean wood
+R010,M004,Bark,Mulch/soil amendment,Agriculture,0.50,Bark is a common landscaping mulch and soil cover material
+R011,M005,Fly Ash,Supplementary cementitious material,Cement Manufacturing,0.95,Fly ash is an established SCM replacing part of clinker content
+R012,M005,Fly Ash,Brick raw material,Brick Manufacturing,0.90,Fly ash bricks are a well-documented construction product
+R013,M005,Fly Ash,Concrete admixture,Concrete Products,0.85,Used as partial cement replacement in ready-mix concrete
+R014,M005,Fly Ash,Road embankment fill,Road Construction,0.65,Engineered fly ash fill is used in road embankment construction
+R015,M006,Bottom Ash,Road base/embankment fill,Road Construction,0.70,Established use as structural fill in road sub-base layers
+R016,M006,Bottom Ash,Concrete aggregate substitute,Concrete Products,0.55,Usable as partial fine aggregate replacement in select concrete mixes
+R017,M007,Cement Kiln Dust,Limited raw feed recycle,Cement Manufacturing,0.40,Reusable only in controlled proportions due to alkali content
+R018,M008,Clinker Dust,Cement raw feed,Cement Manufacturing,0.75,Fine clinker particles can be reintroduced into kiln feed
+R019,M009,Steel Slag,Cement admixture,Cement Manufacturing,0.85,Steel slag is a documented supplementary cementitious material
+R020,M009,Steel Slag,Concrete aggregate,Concrete Products,0.80,Used as partial aggregate replacement in structural concrete
+R021,M009,Steel Slag,Road base material,Road Construction,0.75,Common use as a stable, compactable road sub-base aggregate
+R022,M010,Mill Scale,Sinter feed/iron recovery,Steel Manufacturing,0.50,Reusable in-process but requires specific handling for iron recovery
+R023,M011,Metal Shavings,Furnace remelt input,Steel Manufacturing,0.85,Clean metal shavings are standard remelt feedstock
+R024,M012,Metal Offcuts,Furnace remelt input,Steel Manufacturing,0.85,Offcuts are directly remeltable scrap metal
+R025,M012,Metal Offcuts,Fabrication scrap resale,Steel Fabrication,0.60,Larger offcuts are reusable for smaller fabricated parts
+R026,M013,Plastic Scrap,Recycled pellet production,Plastic Recycling,0.85,Standard feedstock for shredding and pelletizing operations
+R027,M013,Plastic Scrap,Plastic road surfacing,Road Construction,0.60,Shredded plastic scrap is used in plastic-modified road construction
+R028,M013,Plastic Scrap,Construction panel raw material,Construction Materials,0.55,Shredded plastic scrap is usable in composite construction panels
+R029,M014,Plastic Flakes,Pellet manufacturing input,Plastic Manufacturing,0.90,Flakes are a direct precursor to reprocessed pellets
+R030,M015,Plastic Pellets,Direct manufacturing input,Plastic Manufacturing,0.95,Recycled pellets substitute directly for virgin resin
+R031,M016,Plastic Film,Film/packaging recycling,Plastic Packaging,0.70,Reusable in packaging film production after cleaning
+R032,M017,Paper Sludge,Brick filler material,Brick Manufacturing,0.55,Usable as a low-grade filler in clay brick formulations
+R033,M017,Paper Sludge,Compost input (low grade),Composting,0.45,Usable in small proportion as a compost bulking agent
+R034,M018,Fiber Sludge,Low-grade paper input,Paper Manufacturing,0.50,Recoverable fiber content usable in coarse paper grades
+R035,M019,Paper Trim,Recycled paper input,Paper Manufacturing,0.85,Clean trim scrap is high-quality recyclable fiber
+R036,M020,Pulp Residue,Paper manufacturing input,Paper Manufacturing,0.70,Residual pulp is reintroducible into the papermaking process
+R037,M021,Waste Paper,Recycled paper production,Paper Manufacturing,0.90,Standard recovered-fiber feedstock for paper mills
+R038,M021,Waste Paper,Packaging board raw material,Packaging Manufacturing,0.75,Recovered paper is a base input for corrugated packaging board
+R039,M021,Waste Paper,Cellulose insulation raw material,Construction Materials,0.65,Shredded waste paper is a documented input for cellulose insulation
+R040,M022,Rice Husk,Biomass power fuel,Biomass Power,0.90,Rice husk is a widely used agricultural biomass fuel
+R041,M022,Rice Husk,Animal feed/bedding component,Animal Feed Manufacturing,0.50,Usable in limited proportion as a low-nutrition feed filler
+R042,M022,Rice Husk,Biomass briquette feedstock,Biomass Fuel Manufacturing,0.80,Husk is commonly densified into fuel briquettes and pellets
+R043,M023,Rice Husk Ash,Pozzolanic brick material,Brick Manufacturing,0.75,Documented pozzolanic additive in brick and block products
+R044,M023,Rice Husk Ash,Cement blending material,Cement Manufacturing,0.65,Recognized pozzolanic supplementary material in blended cements
+R045,M024,Coconut Husk,Biomass fuel,Biomass Fuel Manufacturing,0.80,Established coir-industry byproduct used as solid fuel
+R046,M024,Coconut Husk,Coir fiber extraction input,Textile Manufacturing,0.55,Husk fiber is used in coir-based textile and matting products
+R047,M025,Coconut Shell,Activated carbon/charcoal production,Biochar Production,0.85,Widely used precursor for activated carbon and charcoal
+R048,M025,Coconut Shell,Biomass fuel,Biomass Power,0.70,Shell is a high-calorific-value solid biomass fuel
+R049,M026,Coffee Husk,Biomass fuel/compost input,Biomass Fuel Manufacturing,0.70,Usable as a supplementary combustible biomass fuel
+R050,M026,Coffee Husk,Composting input,Composting,0.60,Organic husk material is compostable with proper carbon balance
+R051,M027,Banana Fiber Waste,Natural fiber textile input,Textile Manufacturing,0.65,Pseudostem fiber is used in specialty natural-fiber textiles
+R052,M027,Banana Fiber Waste,Composting input,Composting,0.55,Fibrous plant waste is compostable organic material
+R053,M028,Crop Residue,Biochar production,Biochar Production,0.75,Standard feedstock for pyrolysis-based biochar production
+R054,M028,Crop Residue,Biomass power fuel,Biomass Power,0.70,Field residue is a recognized agricultural biomass fuel source
+R055,M029,Organic Residue,Composting input,Composting,0.85,Directly compostable organic byproduct
+R056,M029,Organic Residue,Biogas feedstock,Bioenergy,0.70,Organic residue is suitable feedstock for anaerobic digestion
+R057,M030,Food Waste,Biogas feedstock,Bioenergy,0.85,Common feedstock for anaerobic digestion and biogas plants
+R058,M030,Food Waste,Composting input,Composting,0.80,Food waste is a standard compostable organic input
+R059,M031,Fruit Peels,Composting input,Composting,0.80,Readily compostable organic material
+R060,M031,Fruit Peels,Animal feed supplement,Animal Feed Manufacturing,0.55,Peels are usable as a minor feed supplement after processing
+R061,M032,Whey,Animal feed additive,Animal Feed Manufacturing,0.70,Whey is a recognized protein-rich feed supplement input
+R062,M032,Whey,Biogas feedstock,Bioenergy,0.55,Liquid whey is digestible feedstock for biogas production
+R063,M033,Biogas Slurry,Biofertilizer input,Biofertilizer Manufacturing,0.85,Digestate slurry is a standard biofertilizer precursor
+R064,M033,Biogas Slurry,Compost enrichment additive,Composting,0.65,Nutrient-rich slurry is used to enrich compost blends
+R065,M034,Recovered Steel,Direct steel manufacturing input,Steel Manufacturing,0.90,Recovered steel scrap is a high-quality remelt feedstock
+R066,M035,Recovered Fiber,Paper manufacturing input,Paper Manufacturing,0.85,Recovered fiber substitutes directly for virgin pulp in papermaking
+R067,M036,Mixed Recyclables,Sorted material recovery input,Waste Recycling,0.50,Requires sorting before reuse in specific downstream material streams
+R068,M037,Glass Powder,Ceramic/tile filler,Tile Manufacturing,0.60,Finely ground glass is usable as a filler in ceramic tile bodies
+R069,M037,Glass Powder,Concrete pozzolanic additive,Concrete Products,0.50,Fine glass powder can act as a supplementary cementitious material
+R070,M038,Glass Cullet,Glass remelt input,Glass Manufacturing,0.95,Cullet is a direct, well-established remelt feedstock
+R071,M038,Glass Cullet,Road surface aggregate (glassphalt),Road Construction,0.55,Crushed cullet is used in glass-modified asphalt surfacing
+R072,M039,Rubber Crumbs,Rubberized asphalt input,Road Construction,0.75,Crumb rubber is used in established rubberized-asphalt formulations
+R073,M039,Rubber Crumbs,Playground/flooring surfacing material,Construction Materials,0.60,Crumb rubber is a standard input in safety flooring products
+R074,M040,Textile Scrap,Recycled fiber/yarn input,Textile Manufacturing,0.70,Scrap fabric is reprocessable into recycled yarn and fiber blends
+R075,M040,Textile Scrap,Industrial wiping cloth material,Garment Manufacturing,0.50,Fabric scrap is repurposed into wiping rags and low-grade textiles
+R076,M041,Ceramic Waste,Aggregate for construction fill,Construction Materials,0.55,Crushed ceramic waste is usable as a construction fill aggregate
+R077,M041,Ceramic Waste,Tile raw material blend,Tile Manufacturing,0.50,Crushed ceramic waste is blendable into new tile body formulations
+R078,M042,Ceramic Dust,Ceramic body filler,Ceramic Manufacturing,0.60,Fine ceramic dust is reusable as a filler in ceramic body mixes
+R079,M043,Concrete Slurry,Aggregate recovery for concrete,Concrete Products,0.55,Settled slurry solids are recoverable as aggregate/fines
+R080,M044,Concrete Washout,Recycled aggregate wash water reuse,Concrete Products,0.45,Water and fines from washout are reclaimable for future batching
+R081,M045,Asphalt Millings,Recycled road base,Road Construction,0.85,Reclaimed asphalt pavement is a standard road construction input
+R082,M046,Rubber Scrap,Rubber remanufacture input,Rubber Manufacturing,0.70,Clean rubber scrap is reprocessable into new rubber products
+R083,M047,Waste Tyres,Crumb rubber production,Rubber Recycling,0.85,Tyres are the primary feedstock for crumb rubber recovery
+R084,M047,Waste Tyres,Tyre-derived fuel,Cement Manufacturing,0.60,Shredded tyres are used as an alternative fuel in cement kilns
+R085,M048,Paint Sludge,Limited solidified waste reuse,Chemical Manufacturing,0.25,Hazardous sludge requires treatment; minimal safe reuse potential
+R086,M049,Chemical Residue,Limited recovery for solvent reclamation,Chemical Manufacturing,0.30,Requires specialized treatment; reuse limited to specific residue types
+R087,M050,Recovered Solvents,Solvent reuse input,Chemical Manufacturing,0.70,Recovered solvents can substitute virgin solvents after purification
+R088,M050,Recovered Solvents,Paint thinning/formulation input,Paint Manufacturing,0.60,Purified recovered solvents are reusable in paint formulation
+R089,M051,Packaging Scrap,Recycled packaging input,Packaging Manufacturing,0.75,Clean scrap is reintroducible into packaging production
+R090,M052,Paper Offcuts,Recycled paper/packaging input,Paper Manufacturing,0.80,Offcuts are high-quality recoverable fiber for paper production
+R091,M053,Finished Compost,Soil amendment for agriculture,Agriculture,0.90,Finished compost is a direct-use soil enrichment product
+R092,M054,Biofertilizer Residue,Soil conditioner input,Agriculture,0.70,Residual organic matter improves soil structure and fertility
+R093,M055,Rice Bran Waste,Animal feed input,Animal Feed Manufacturing,0.75,Rice bran is a widely used protein and fiber feed ingredient
+R094,M056,Fish Processing Waste,Fish meal/feed input,Aquaculture Feed,0.80,Standard feedstock for fish meal and aquafeed production
+R095,M056,Fish Processing Waste,Biogas feedstock,Bioenergy,0.55,Fish processing residue is digestible feedstock for biogas production
+R096,M057,Feed Dust,Feed pellet reprocessing input,Animal Feed Manufacturing,0.60,Fine feed dust is reprocessable back into pelleted feed
+R097,M058,Biochar Ash,Soil amendment,Agriculture,0.55,Biochar ash residue is usable as a minor soil conditioning agent
+R098,M059,Pellet Dust,Fuel pellet reprocessing input,Biomass Fuel Manufacturing,0.65,Fine pellet dust is re-densifiable into new fuel pellets
+R099,M060,Wood Ash,Soil amendment/cement filler,Cement Manufacturing,0.40,Usable in minor proportion as a filler; limited by inconsistent composition
+R100,M060,Wood Ash,Agricultural liming agent,Agriculture,0.60,Wood ash is used to raise soil pH as a natural lime substitute
