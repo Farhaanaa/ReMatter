@@ -1,0 +1,60 @@
+M001,Sawdust,Biomass,Wood Processing,Solid,Low,Yes,Yes,Fine wood particles generated during cutting and sawing
+M002,Wood Chips,Biomass,Wood Processing,Solid,Low,Yes,Yes,Chipped wood suitable for board manufacturing and biomass fuel
+M003,Wood Shavings,Biomass,Wood Processing,Solid,Low,Yes,Yes,Thin curled wood waste from planing operations
+M004,Bark,Biomass,Wood Processing,Solid,Low,Yes,Yes,Outer tree covering removed during timber processing
+M005,Fly Ash,Mineral,Cement/Power Plants,Powder,Low,Yes,No,Fine ash collected from coal combustion
+M006,Bottom Ash,Mineral,Power Plants,Granular,Low,Yes,No,Coarse ash remaining after combustion
+M007,Cement Kiln Dust,Mineral,Cement,Powder,Medium,Yes,No,Dust collected from cement kiln exhaust gases
+M008,Clinker Dust,Mineral,Cement,Powder,Low,Yes,No,Fine clinker particles generated during cement production
+M009,Steel Slag,Metal,Steel Manufacturing,Solid,Low,Yes,No,By-product from steelmaking furnaces
+M010,Mill Scale,Metal,Steel Manufacturing,Flakes,Low,Yes,No,Oxide layer removed from steel surfaces
+M011,Metal Shavings,Metal,Machining,Solid,Low,Yes,No,Metal chips generated during machining
+M012,Metal Offcuts,Metal,Fabrication,Solid,Low,Yes,No,Leftover metal pieces from fabrication
+M013,Plastic Scrap,Plastic,Plastic Manufacturing,Solid,Low,Yes,No,Rejected or leftover plastic products
+M014,Plastic Flakes,Plastic,Plastic Recycling,Flakes,Low,Yes,No,Processed shredded plastic
+M015,Plastic Pellets,Plastic,Plastic Recycling,Pellets,Low,Yes,No,Reprocessed plastic granules
+M016,Plastic Film,Plastic,Packaging,Sheet,Low,Yes,No,Thin flexible plastic waste
+M017,Paper Sludge,Paper,Paper Industry,Wet Sludge,Medium,Yes,Yes,Residual sludge from paper manufacturing
+M018,Fiber Sludge,Paper,Paper Industry,Wet Sludge,Medium,Yes,Yes,Fibrous sludge recovered from paper mills
+M019,Paper Trim,Paper,Paper Industry,Solid,Low,Yes,Yes,Trimmed paper edges from manufacturing
+M020,Pulp Residue,Paper,Paper Industry,Wet,Low,Yes,Yes,Unused pulp remaining after processing
+M021,Waste Paper,Paper,Paper Industry,Solid,Low,Yes,Yes,Discarded paper suitable for recycling
+M022,Rice Husk,Agricultural,Rice Mills,Solid,Low,Yes,Yes,Protective outer shell removed during milling
+M023,Rice Husk Ash,Agricultural,Biomass Plants,Powder,Low,Yes,No,Ash produced after burning rice husk
+M024,Coconut Husk,Agricultural,Coconut Processing,Solid,Low,Yes,Yes,Fibrous outer shell of coconuts
+M025,Coconut Shell,Agricultural,Coconut Processing,Solid,Low,Yes,Yes,Hard shell remaining after processing
+M026,Coffee Husk,Agricultural,Coffee Processing,Solid,Low,Yes,Yes,Outer covering removed during coffee processing
+M027,Banana Fiber Waste,Agricultural,Banana Processing,Fibrous,Low,Yes,Yes,Fiber extracted from banana pseudostems
+M028,Crop Residue,Agricultural,Farming,Solid,Low,Yes,Yes,Remaining plant material after harvesting
+M029,Organic Residue,Organic,Food Processing,Wet,Low,Yes,Yes,Organic by-product from food manufacturing
+M030,Food Waste,Organic,Food Processing,Wet,Low,Yes,Yes,Discarded edible and inedible food materials
+M031,Fruit Peels,Organic,Fruit Processing,Wet,Low,Yes,Yes,Fruit skins and peels
+M032,Whey,Dairy,Dairy Industry,Liquid,Low,Yes,Yes,Liquid remaining after cheese production
+M033,Biogas Slurry,Organic,Biogas Plants,Semi-solid,Low,Yes,Yes,Nutrient-rich residue from anaerobic digestion
+M034,Recovered Steel,Metal,Recycling,Solid,Low,Yes,No,Steel recovered from scrap recycling
+M035,Recovered Fiber,Paper,Recycling,Solid,Low,Yes,Yes,Recovered paper fibers ready for reuse
+M036,Mixed Recyclables,Mixed,Recycling,Solid,Medium,Yes,No,Sorted recyclable mixed materials
+M037,Glass Powder,Glass,Glass Recycling,Powder,Low,Yes,No,Finely crushed recycled glass
+M038,Glass Cullet,Glass,Glass Recycling,Granular,Low,Yes,No,Crushed recycled glass for remelting
+M039,Rubber Crumbs,Rubber,Tyre Recycling,Granular,Low,Yes,No,Granulated recycled rubber
+M040,Textile Scrap,Textile,Textile Industry,Fabric,Low,Yes,Yes,Discarded fabric pieces from manufacturing
+M041,Ceramic Waste,Ceramic,Ceramic Manufacturing,Solid,Low,Yes,No,Broken ceramic products and manufacturing rejects
+M042,Ceramic Dust,Ceramic,Ceramic Manufacturing,Powder,Low,Yes,No,Fine ceramic particles generated during grinding and polishing
+M043,Concrete Slurry,Construction,Concrete Manufacturing,Semi-solid,Medium,Yes,No,Cement-rich slurry produced during concrete processing
+M044,Concrete Washout,Construction,Ready Mix Concrete,Liquid,Medium,Yes,No,Residual concrete wash water from mixer cleaning
+M045,Asphalt Millings,Construction,Road Construction,Granular,Low,Yes,No,Reclaimed asphalt pavement from road resurfacing
+M046,Rubber Scrap,Rubber,Rubber Manufacturing,Solid,Low,Yes,No,Discarded rubber pieces from production
+M047,Waste Tyres,Rubber,Automotive,Solid,Low,Yes,No,End-of-life tyres suitable for recycling
+M048,Paint Sludge,Chemical,Paint Manufacturing,Semi-solid,High,Limited,No,Sludge generated during paint production and wastewater treatment
+M049,Chemical Residue,Chemical,Chemical Manufacturing,Liquid,High,Limited,No,Residual chemicals from industrial processing
+M050,Recovered Solvents,Chemical,Chemical Recovery,Liquid,Medium,Yes,No,Recovered industrial solvents suitable for reuse
+M051,Packaging Scrap,Packaging,Packaging Manufacturing,Solid,Low,Yes,Yes,Discarded packaging material from production
+M052,Paper Offcuts,Packaging,Packaging Manufacturing,Solid,Low,Yes,Yes,Unused paperboard cuttings from packaging operations
+M053,Finished Compost,Organic,Composting,Solid,Low,Yes,Yes,Finished compost produced from organic waste
+M054,Biofertilizer Residue,Organic,Biofertilizer Production,Solid,Low,Yes,Yes,Residual organic matter from biofertilizer manufacturing
+M055,Rice Bran Waste,Agricultural,Rice Milling,Solid,Low,Yes,Yes,Rice bran by-product from milling operations
+M056,Fish Processing Waste,Marine,Fish Processing,Wet,Low,Yes,Yes,Fish heads, bones and trimmings generated during processing
+M057,Feed Dust,Agricultural,Feed Manufacturing,Powder,Low,Yes,Yes,Fine dust generated during animal feed production
+M058,Biochar Ash,Biomass,Biochar Production,Powder,Low,Yes,No,Ash remaining after biochar production
+M059,Pellet Dust,Biomass,Biomass Fuel Production,Powder,Low,Yes,No,Fine dust generated during biomass pellet manufacturing
+M060,Wood Ash,Biomass,Biomass Power,Powder,Low,Yes,No,Ash produced after combustion of wood biomass
