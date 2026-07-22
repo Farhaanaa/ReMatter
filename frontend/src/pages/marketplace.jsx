@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Search } from "lucide-react";
 import api from "../services/api";
 import MaterialCard from "../components/MaterialCard";
+import Navbar from "../components/Navbar";
 
 function Marketplace() {
     const [listings, setListings] = useState([]);
@@ -80,6 +81,7 @@ function Marketplace() {
     return (
         <main className="min-h-screen bg-white">
 
+            <Navbar />
             {/* Header */}
 
             <section className="bg-[#f4fafb] border-b border-slate-200">
@@ -149,8 +151,8 @@ function Marketplace() {
                                     key={filter}
                                     onClick={() => setSelectedFilter(filter)}
                                     className={`relative pb-2 text-[17px] transition-all duration-200 ${selectedFilter === filter
-                                            ? "font-semibold text-slate-900 after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-full after:bg-emerald-600"
-                                            : "text-slate-500 hover:text-emerald-700"
+                                        ? "font-semibold text-slate-900 after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-full after:bg-emerald-600"
+                                        : "text-slate-500 hover:text-emerald-700"
                                         }`}
                                 >
                                     {filter}

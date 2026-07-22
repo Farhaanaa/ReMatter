@@ -39,6 +39,18 @@ def home():
 def get_companies():
     return companies.to_dict(orient="records")
 
+    @app.get("/companies/{company_name}")
+def get_company(company_name: str):
+
+    company = companies[
+        companies["company_name"] == company_name
+    ]
+
+    if company.empty:
+        return {"message": "Company not found"}
+
+    return company.iloc[0].to_dict()
+
 
 @app.get("/materials")
 def get_materials():
