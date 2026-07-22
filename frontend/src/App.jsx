@@ -4,6 +4,7 @@ import Landing from "./pages/landing";
 import Login from "./pages/login";
 import Dashboard from "./pages/dashboard";
 import Marketplace from "./pages/marketplace";
+import MaterialDetails from "./pages/MaterialDetails";
 import Recommendations from "./pages/recommendations";
 import About from "./pages/about";
 import NotFound from "./pages/notfound";
@@ -15,6 +16,7 @@ function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/marketplace" element={<Marketplace />} />
+      <Route path="/material/:id" element={<MaterialDetails />} />
       <Route path="/recommendations" element={<Recommendations />} />
       <Route path="/about" element={<About />} />
       <Route path="*" element={<NotFound />} />

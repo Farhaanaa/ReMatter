@@ -170,6 +170,7 @@ function Marketplace() {
                             filteredListings.map((item) => (
                                 <MaterialCard
                                     key={item.listing_id}
+                                    id={item.listing_id}
                                     material={getMaterialName(item.material_id)}
                                     company={getCompanyName(item.company_id)}
                                     quantity={`${item.quantity} ${item.unit}`}
