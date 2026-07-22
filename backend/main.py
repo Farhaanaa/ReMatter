@@ -39,7 +39,7 @@ def home():
 def get_companies():
     return companies.to_dict(orient="records")
 
-    @app.get("/companies/{company_name}")
+@app.get("/companies/{company_name}")
 def get_company(company_name: str):
 
     company = companies[
