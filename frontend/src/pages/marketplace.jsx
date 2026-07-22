@@ -4,27 +4,78 @@ import api from "../services/api";
 import MaterialCard from "../components/MaterialCard";
 
 function Marketplace() {
+    const [listings, setListings] = useState([]);
     const [materials, setMaterials] = useState([]);
+    const [companies, setCompanies] = useState([]);
+
+    const [searchTerm, setSearchTerm] = useState("");
+    const [selectedFilter, setSelectedFilter] = useState("All");
 
     useEffect(() => {
-        api.get("/waste_listings")
-            .then((response) => {
-                console.log(response.data);
-                setMaterials(response.data);
+        Promise.all([
+            api.get("/waste_listings"),
+            api.get("/materials"),
+            api.get("/companies"),
+        ])
+            .then(([listingsRes, materialsRes, companiesRes]) => {
+                setListings(listingsRes.data);
+                setMaterials(materialsRes.data);
+                setCompanies(companiesRes.data);
             })
             .catch((error) => {
-                console.error("Error fetching materials:", error);
+                console.error("Error fetching data:", error);
             });
     }, []);
 
+    // Generate filters dynamically
     const filters = [
         "All",
-        "Plastic",
-        "Metal",
-        "Wood",
-        "Paper",
-        "Textile",
+        ...new Set(materials.map((material) => material.category)),
     ];
+
+    // Lookup material name
+    const getMaterialName = (materialId) => {
+        const material = materials.find(
+            (item) => item.material_id === materialId
+        );
+
+        return material ? material.material_name : materialId;
+    };
+
+    // Lookup company name
+    const getCompanyName = (companyId) => {
+        const company = companies.find(
+            (item) => item.company_id === companyId
+        );
+
+        return company ? company.company_name : companyId;
+    };
+
+    // Lookup category
+    const getMaterialCategory = (materialId) => {
+        const material = materials.find(
+            (item) => item.material_id === materialId
+        );
+
+        return material ? material.category : "Unknown";
+    };
+
+    // Search & Filter
+    const filteredListings = listings.filter((item) => {
+        const materialName = getMaterialName(item.material_id).toLowerCase();
+        const companyName = getCompanyName(item.company_id).toLowerCase();
+        const category = getMaterialCategory(item.material_id).toLowerCase();
+
+        const matchesSearch =
+            materialName.includes(searchTerm.toLowerCase()) ||
+            companyName.includes(searchTerm.toLowerCase());
+
+        const matchesFilter =
+            selectedFilter === "All" ||
+            category === selectedFilter.toLowerCase();
+
+        return matchesSearch && matchesFilter;
+    });
 
     return (
         <main className="min-h-screen bg-white">
@@ -78,6 +129,9 @@ function Marketplace() {
 
                                 <input
                                     type="text"
+                                    placeholder="Search materials or companies..."
+                                    value={searchTerm}
+                                    onChange={(e) => setSearchTerm(e.target.value)}
                                     className="ml-4 w-full bg-transparent outline-none text-slate-700"
                                 />
 
@@ -89,11 +143,12 @@ function Marketplace() {
 
                         <div className="flex flex-wrap items-center gap-10 mt-10">
 
-                            {filters.map((filter, index) => (
+                            {filters.map((filter) => (
 
                                 <button
                                     key={filter}
-                                    className={`relative pb-2 text-[17px] transition-all duration-200 ${index === 0
+                                    onClick={() => setSelectedFilter(filter)}
+                                    className={`relative pb-2 text-[17px] transition-all duration-200 ${selectedFilter === filter
                                             ? "font-semibold text-slate-900 after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-full after:bg-emerald-600"
                                             : "text-slate-500 hover:text-emerald-700"
                                         }`}
@@ -111,16 +166,30 @@ function Marketplace() {
 
                     <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8 mt-14">
 
-                        {materials.map((item) => (
-                            <MaterialCard
-                                key={item.listing_id}
-                                material={item.material_id}
-                                company={item.company_id}
-                                quantity={`${item.quantity} ${item.unit}`}
-                                location={item.city}
-                                category={item.availability_status}
-                            />
-                        ))}
+                        {filteredListings.length > 0 ? (
+                            filteredListings.map((item) => (
+                                <MaterialCard
+                                    key={item.listing_id}
+                                    material={getMaterialName(item.material_id)}
+                                    company={getCompanyName(item.company_id)}
+                                    quantity={`${item.quantity} ${item.unit}`}
+                                    location={item.city}
+                                    category={getMaterialCategory(item.material_id)}
+                                />
+                            ))
+                        ) : (
+                            <div className="col-span-full py-20 text-center">
+
+                                <h3 className="text-2xl font-semibold text-slate-700">
+                                    No materials found
+                                </h3>
+
+                                <p className="mt-2 text-slate-500">
+                                    Try changing your search or selecting a different category.
+                                </p>
+
+                            </div>
+                        )}
 
                     </div>
 
