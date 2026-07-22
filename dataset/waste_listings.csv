@@ -1,0 +1,141 @@
+listing_id,company_id,material_id,quantity,unit,listing_date,availability_status,price_per_ton,city,remarks
+W001,C001,M001,16,tons,2026-07-20,Available,181,Kozhikode,Ready for pickup
+W002,C001,M001,26,tons,2026-07-18,Reserved,36,Kozhikode,Covered storage
+W003,C002,M002,25,tons,2026-07-20,Available,125,Kannur,Freshly generated
+W004,C002,M002,19,tons,2026-07-16,Available,285,Kannur,Ready for pickup
+W005,C002,M002,26,tons,2026-07-17,Closed,28,Kannur,Ready for pickup
+W006,C003,M004,31,tons,2026-07-22,Available,205,Kottayam,Bulk quantity available
+W007,C003,M004,7,tons,2026-07-19,Reserved,161,Kottayam,Ready for pickup
+W008,C003,M004,25,tons,2026-07-15,Available,234,Kottayam,Freshly generated
+W009,C004,M001,13,tons,2026-07-20,Available,287,Ernakulam,Suitable for recycling
+W010,C005,M003,13,tons,2026-07-11,Reserved,219,Idukki,Covered storage
+W011,C005,M003,17,tons,2026-07-17,Available,70,Idukki,Suitable for recycling
+W012,C006,M001,20,tons,2026-07-21,Closed,24,Pathanamthitta,Moisture below 10%
+W013,C006,M001,9,tons,2026-07-12,Available,216,Pathanamthitta,Covered storage
+W014,C006,M001,7,tons,2026-07-16,Available,239,Pathanamthitta,Suitable for recycling
+W015,C009,M073,13,tons,2026-07-14,Available,58,Ernakulam,Industrial grade
+W016,C009,M073,33,tons,2026-07-14,Closed,136,Ernakulam,Industrial grade
+W017,C009,M073,15,tons,2026-07-21,Available,222,Ernakulam,Freshly generated
+W018,C010,M074,19,tons,2026-07-22,Closed,134,Kollam,Suitable for recycling
+W019,C010,M074,21,tons,2026-07-08,Available,152,Kollam,Covered storage
+W020,C010,M074,9,tons,2026-07-17,Closed,82,Kollam,Ready for pickup
+W021,C011,M073,24,tons,2026-07-17,Available,9,Palakkad,Moisture below 10%
+W022,C011,M073,34,tons,2026-07-17,Available,122,Palakkad,Clean dry sawdust
+W023,C012,M017,23,tons,2026-07-08,Reserved,40,Kottayam,Moisture below 10%
+W024,C012,M017,39,tons,2026-07-09,Available,272,Kottayam,Suitable for recycling
+W025,C013,M018,16,tons,2026-07-12,Available,281,Kozhikode,Suitable for recycling
+W026,C013,M018,24,tons,2026-07-14,Reserved,216,Kozhikode,Ready for pickup
+W027,C014,M019,42,tons,2026-07-10,Closed,1323,Ernakulam,Bulk quantity available
+W028,C015,M020,33,tons,2026-07-12,Reserved,191,Thrissur,Freshly generated
+W029,C015,M020,41,tons,2026-07-15,Available,126,Thrissur,Ready for pickup
+W030,C015,M020,12,tons,2026-07-17,Available,283,Thrissur,Ready for pickup
+W031,C016,M017,45,tons,2026-07-19,Available,36,Kannur,Industrial grade
+W032,C016,M017,11,tons,2026-07-19,Available,16,Kannur,Monthly recurring supply
+W033,C016,M017,12,tons,2026-07-14,Available,142,Kannur,Industrial grade
+W034,C017,M014,20,tons,2026-07-19,Available,1041,Ernakulam,Covered storage
+W035,C017,M014,23,tons,2026-07-15,Available,2437,Ernakulam,Quality inspected
+W036,C017,M014,11,tons,2026-07-21,Available,2265,Ernakulam,Monthly recurring supply
+W037,C018,M015,18,tons,2026-07-16,Available,721,Kollam,Industrial grade
+W038,C018,M015,25,tons,2026-07-12,Available,748,Kollam,Quality inspected
+W039,C019,M013,28,tons,2026-07-17,Available,1518,Palakkad,Ready for pickup
+W040,C019,M013,11,tons,2026-07-14,Available,1074,Palakkad,Quality inspected
+W041,C021,M013,10,tons,2026-07-18,Available,1523,Alappuzha,Contamination below 2%
+W042,C021,M013,19,tons,2026-07-10,Reserved,901,Alappuzha,Sorted and baled
+W043,C021,M013,25,tons,2026-07-14,Available,882,Alappuzha,Ready for pickup
+W044,C024,M008,20,tons,2026-07-16,Available,2471,Palakkad,Ready for pickup
+W045,C024,M008,35,tons,2026-07-08,Available,1174,Palakkad,Quality inspected
+W046,C024,M008,10,tons,2026-07-16,Available,2363,Palakkad,Bulk quantity available
+W047,C026,M007,37,tons,2026-07-11,Closed,2776,Thrissur,Industrial grade
+W048,C031,M009,60,tons,2026-07-15,Available,1277,Palakkad,Bulk quantity available
+W049,C032,M010,28,tons,2026-07-22,Reserved,2720,Kozhikode,Sorted and baled
+W050,C032,M010,62,tons,2026-07-17,Available,705,Kozhikode,Covered storage
+W051,C032,M010,45,tons,2026-07-14,Available,1144,Kozhikode,Sorted and baled
+W052,C033,M011,47,tons,2026-07-21,Available,780,Ernakulam,Covered storage
+W053,C033,M011,19,tons,2026-07-12,Available,2153,Ernakulam,Industrial grade
+W054,C033,M011,51,tons,2026-07-19,Reserved,2935,Ernakulam,Sorted and baled
+W055,C034,M009,54,tons,2026-07-21,Available,2890,Kannur,Covered storage
+W056,C034,M009,48,tons,2026-07-17,Available,1336,Kannur,Industrial grade
+W057,C035,M012,60,tons,2026-07-17,Available,1587,Thrissur,Quality inspected
+W058,C035,M012,23,tons,2026-07-12,Reserved,1728,Thrissur,Freshly generated
+W059,C035,M012,35,tons,2026-07-08,Closed,797,Thrissur,Sorted and baled
+W060,C036,M040,39,tons,2026-07-13,Reserved,909,Kannur,Quality inspected
+W061,C041,M030,22,tons,2026-07-19,Available,135,Palakkad,Suitable for composting
+W062,C041,M030,16,tons,2026-07-08,Available,125,Palakkad,Monthly recurring supply
+W063,C042,M022,14,tons,2026-07-20,Available,278,Thrissur,Bulk quantity available
+W064,C042,M022,24,tons,2026-07-10,Reserved,270,Thrissur,Bulk quantity available
+W065,C042,M022,22,tons,2026-07-18,Reserved,53,Thrissur,Moisture below 10%
+W066,C043,M031,13,tons,2026-07-21,Available,283,Kozhikode,Suitable for composting
+W067,C043,M031,13,tons,2026-07-18,Reserved,107,Kozhikode,Monthly recurring supply
+W068,C044,M029,11,tons,2026-07-12,Reserved,135,Ernakulam,Suitable for recycling
+W069,C044,M029,20,tons,2026-07-18,Available,47,Ernakulam,Industrial grade
+W070,C044,M029,18,tons,2026-07-09,Available,22,Ernakulam,Freshly generated
+W071,C045,M022,15,tons,2026-07-10,Available,134,Kannur,Moisture below 10%
+W072,C046,M028,57,tons,2026-07-15,Reserved,218,Palakkad,Suitable for recycling
+W073,C047,M024,10,tons,2026-07-21,Available,76,Idukki,Suitable for recycling
+W074,C047,M024,12,tons,2026-07-09,Available,298,Idukki,Suitable for recycling
+W075,C048,M026,19,tons,2026-07-16,Available,21,Wayanad,Bulk quantity available
+W076,C049,M027,33,tons,2026-07-08,Available,183,Kottayam,Ready for pickup
+W077,C049,M027,53,tons,2026-07-19,Reserved,52,Kottayam,Monthly recurring supply
+W078,C049,M027,59,tons,2026-07-14,Available,79,Kottayam,Ready for pickup
+W079,C050,M025,20,tons,2026-07-10,Available,211,Alappuzha,Bulk quantity available
+W080,C050,M025,21,tons,2026-07-11,Available,210,Alappuzha,Industrial grade
+W081,C050,M025,57,tons,2026-07-10,Available,136,Alappuzha,Moisture below 10%
+W082,C051,M032,8,tons,2026-07-16,Available,240,Kottayam,Bulk quantity available
+W083,C051,M032,11,tons,2026-07-09,Available,179,Kottayam,Monthly recurring supply
+W084,C053,M032,12,tons,2026-07-19,Available,98,Ernakulam,Freshly generated
+W085,C053,M032,15,tons,2026-07-18,Available,142,Ernakulam,Quality inspected
+W086,C053,M032,17,tons,2026-07-12,Available,169,Ernakulam,Freshly generated
+W087,C056,M034,22,tons,2026-07-08,Available,1231,Palakkad,Covered storage
+W088,C056,M034,31,tons,2026-07-22,Available,2943,Palakkad,Quality inspected
+W089,C056,M034,37,tons,2026-07-11,Available,2287,Palakkad,Covered storage
+W090,C057,M035,26,tons,2026-07-21,Available,2861,Kozhikode,Ready for pickup
+W091,C057,M035,18,tons,2026-07-22,Closed,2286,Kozhikode,Sorted and baled
+W092,C058,M006,43,tons,2026-07-08,Available,1307,Palakkad,Monthly recurring supply
+W093,C058,M006,37,tons,2026-07-21,Reserved,1852,Palakkad,Covered storage
+W094,C058,M006,30,tons,2026-07-12,Available,1730,Palakkad,Suitable for recycling
+W095,C059,M033,29,tons,2026-07-12,Available,167,Thrissur,Quality inspected
+W096,C059,M033,54,tons,2026-07-18,Reserved,65,Thrissur,Ready for pickup
+W097,C060,M060,36,tons,2026-07-12,Available,89,Kannur,Covered storage
+W098,C060,M060,46,tons,2026-07-18,Available,280,Kannur,Clean dry sawdust
+W099,C061,M042,29,tons,2026-07-18,Available,220,Thrissur,Industrial grade
+W100,C061,M042,48,tons,2026-07-12,Available,238,Thrissur,Suitable for recycling
+W101,C062,M037,38,tons,2026-07-12,Available,2593,Ernakulam,Freshly generated
+W102,C062,M037,60,tons,2026-07-08,Closed,1195,Ernakulam,Industrial grade
+W103,C062,M037,15,tons,2026-07-18,Available,1872,Ernakulam,Contamination below 2%
+W104,C063,M041,58,tons,2026-07-19,Reserved,158,Kozhikode,Bulk quantity available
+W105,C063,M041,22,tons,2026-07-20,Available,23,Kozhikode,Bulk quantity available
+W106,C063,M041,40,tons,2026-07-13,Closed,37,Kozhikode,Suitable for recycling
+W107,C064,M043,36,tons,2026-07-08,Reserved,294,Palakkad,Bulk quantity available
+W108,C064,M043,55,tons,2026-07-11,Available,253,Palakkad,Freshly generated
+W109,C065,M044,25,tons,2026-07-20,Reserved,2,Kottayam,Industrial grade
+W110,C065,M044,59,tons,2026-07-16,Available,90,Kottayam,Covered storage
+W111,C065,M044,39,tons,2026-07-22,Reserved,127,Kottayam,Industrial grade
+W112,C066,M045,39,tons,2026-07-20,Available,2675,Kochi,Covered storage
+W113,C066,M045,48,tons,2026-07-17,Closed,2312,Kochi,Industrial grade
+W114,C066,M045,42,tons,2026-07-16,Reserved,2326,Kochi,Ready for pickup
+W115,C067,M046,40,tons,2026-07-15,Available,1512,Kottayam,Industrial grade
+W116,C067,M046,27,tons,2026-07-10,Closed,2635,Kottayam,Freshly generated
+W117,C068,M039,50,tons,2026-07-19,Available,2301,Kannur,Industrial grade
+W118,C069,M048,13,tons,2026-07-18,Available,139,Ernakulam,Quality inspected
+W119,C069,M048,7,tons,2026-07-08,Available,41,Ernakulam,Ready for pickup
+W120,C069,M048,4,tons,2026-07-19,Available,78,Ernakulam,Bulk quantity available
+W121,C070,M049,3,tons,2026-07-16,Available,169,Alappuzha,Covered storage
+W122,C071,M051,37,tons,2026-07-16,Available,1347,Kozhikode,Suitable for recycling
+W123,C071,M051,32,tons,2026-07-08,Closed,2892,Kozhikode,Ready for pickup
+W124,C071,M051,44,tons,2026-07-16,Available,524,Kozhikode,Quality inspected
+W125,C072,M052,27,tons,2026-07-10,Available,2216,Ernakulam,Industrial grade
+W126,C072,M052,39,tons,2026-07-19,Available,2285,Ernakulam,Industrial grade
+W127,C072,M052,9,tons,2026-07-16,Available,2156,Ernakulam,Suitable for recycling
+W128,C073,M053,39,tons,2026-07-08,Available,273,Thrissur,Freshly generated
+W129,C073,M053,35,tons,2026-07-13,Reserved,13,Thrissur,Monthly recurring supply
+W130,C073,M053,51,tons,2026-07-16,Available,236,Thrissur,Suitable for composting
+W131,C074,M083,13,tons,2026-07-18,Available,167,Palakkad,Ready for pickup
+W132,C074,M083,39,tons,2026-07-17,Available,194,Palakkad,Bulk quantity available
+W133,C075,M054,58,tons,2026-07-09,Available,129,Idukki,Monthly recurring supply
+W134,C075,M054,40,tons,2026-07-22,Closed,276,Idukki,Freshly generated
+W135,C076,M055,16,tons,2026-07-19,Reserved,35,Ernakulam,Industrial grade
+W136,C077,M057,6,tons,2026-07-10,Available,126,Kozhikode,Ready for pickup
+W137,C077,M057,5,tons,2026-07-13,Available,122,Kozhikode,Moisture below 10%
+W138,C078,M058,40,tons,2026-07-12,Available,288,Wayanad,Ready for pickup
+W139,C079,M059,39,tons,2026-07-11,Available,188,Palakkad,Freshly generated
+W140,C079,M059,48,tons,2026-07-13,Closed,58,Palakkad,Freshly generated
