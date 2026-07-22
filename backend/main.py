@@ -1,8 +1,21 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
 import os
 
 app = FastAPI()
+
+# Allow requests from the React frontend
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Dataset paths
 companies_path = os.path.abspath("../dataset/companies.csv")
@@ -85,15 +98,15 @@ def get_recommendations(listing_id: str):
         for _, company in matched_companies.iterrows():
 
             recommendations.append({
-    "listing_id": listing["listing_id"],
-    "material_id": material_id,
-    "company_name": company["company_name"],
-    "industry": company["industry"],
-    "district": company["district"],
-    "state": company["state"],
-    "application": rule["application"],
-    "compatibility_score": float(rule["compatibility_score"])
-})
+                "listing_id": listing["listing_id"],
+                "material_id": material_id,
+                "company_name": company["company_name"],
+                "industry": company["industry"],
+                "district": company["district"],
+                "state": company["state"],
+                "application": rule["application"],
+                "compatibility_score": float(rule["compatibility_score"])
+            })
 
     recommendations.sort(
         key=lambda x: x["compatibility_score"],

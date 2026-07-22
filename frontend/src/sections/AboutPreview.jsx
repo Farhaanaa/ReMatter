@@ -25,22 +25,28 @@ function AboutPreview() {
 
             <div className="max-w-7xl mx-auto px-6 sm:px-12 lg:px-20">
 
-                <div className="max-w-2xl mb-20">
+                {/* Heading */}
 
-                    <p className="uppercase tracking-[0.35em] text-[13px] text-emerald-700 font-medium mb-5">
-                        Why ReMatter?
-                    </p>
+                <div className="grid lg:grid-cols-2 gap-16 items-end mb-24">
 
-                    <h2
-                        className="text-[48px] leading-tight text-slate-900 mb-6"
-                        style={{ fontFamily: "'Libre Bodoni', serif" }}
-                    >
-                        Waste is valuable.
-                        <br />
-                        The connection is missing.
-                    </h2>
+                    <div>
 
-                    <p className="text-slate-600 text-lg leading-8">
+                        <p className="uppercase tracking-[0.35em] text-[13px] text-emerald-700 font-medium mb-5">
+                            Why ReMatter?
+                        </p>
+
+                        <h2
+                            className="text-[48px] lg:text-[56px] leading-tight text-slate-900"
+                            style={{ fontFamily: "'Libre Bodoni', serif" }}
+                        >
+                            Waste is valuable.
+                            <br />
+                            The connection is missing.
+                        </h2>
+
+                    </div>
+
+                    <p className="text-lg leading-8 text-slate-600 lg:pl-8">
                         ReMatter bridges the gap between industries by helping
                         companies discover valuable material exchange
                         opportunities instead of sending reusable waste to
@@ -49,13 +55,15 @@ function AboutPreview() {
 
                 </div>
 
+                {/* Cards */}
+
                 <div className="grid md:grid-cols-3 gap-8">
 
                     {problems.map((item) => (
 
                         <div
                             key={item.number}
-                            className="rounded-3xl border border-slate-200 p-10 hover:shadow-lg transition duration-300"
+                            className="rounded-3xl border border-slate-200 p-10 transition hover:-translate-y-1 hover:shadow-lg"
                         >
 
                             <span
