@@ -12,7 +12,7 @@ function Navbar() {
                     <Link
                         to="/"
                         className="text-3xl font-bold tracking-tight text-slate-900"
-                        sstyle={{ fontFamily: "'DM Serif Display', serif" }}
+                        style={{ fontFamily: "'Libre Bodoni', serif" }}
                     >
                         ReMatter
                     </Link>
@@ -22,21 +22,21 @@ function Navbar() {
 
                         <Link
                             to="/marketplace"
-                            className="text-sm font-medium text-slate-700 hover:text-emerald-600 transition"
+                            className="text-sm font-medium text-slate-700 hover:text-emerald-600 transition-colors"
                         >
                             Marketplace
                         </Link>
 
                         <Link
                             to="/recommendations"
-                            className="text-sm font-medium text-slate-700 hover:text-emerald-600 transition"
+                            className="text-sm font-medium text-slate-700 hover:text-emerald-600 transition-colors"
                         >
                             Recommendations
                         </Link>
 
                         <Link
                             to="/about"
-                            className="text-sm font-medium text-slate-700 hover:text-emerald-600 transition"
+                            className="text-sm font-medium text-slate-700 hover:text-emerald-600 transition-colors"
                         >
                             About
                         </Link>
@@ -44,20 +44,23 @@ function Navbar() {
                     </div>
 
                     {/* Right Side */}
-                    <div className="flex items-center gap-4">
+                    <div className="flex items-center gap-8">
 
                         <Link
                             to="/login"
-                            className="text-sm font-medium text-slate-700 hover:text-emerald-600 transition"
+                            className="text-sm font-medium text-slate-700 hover:text-emerald-600 transition-colors"
                         >
                             Login
                         </Link>
 
                         <Link
                             to="/dashboard"
-                            className="bg-slate-900 text-white text-sm font-medium px-6 py-3 rounded-full hover:bg-slate-800 transition"
+                            className="group inline-flex items-center text-sm font-medium text-slate-900 hover:text-emerald-600 transition-colors"
                         >
                             Get Started
+                            <span className="ml-1 transition-transform duration-300 group-hover:translate-x-1">
+                                →
+                            </span>
                         </Link>
 
                     </div>
