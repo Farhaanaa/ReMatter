@@ -18,11 +18,12 @@ app.add_middleware(
 )
 
 # Dataset paths
-companies_path = os.path.abspath("../dataset/companies.csv")
-materials_path = os.path.abspath("../dataset/materials.csv")
-rules_path = os.path.abspath("../dataset/compatibility_rules.csv")
-waste_listings_path = os.path.abspath("../dataset/waste_listings.csv")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
+companies_path = os.path.join(BASE_DIR, "dataset", "companies.csv")
+materials_path = os.path.join(BASE_DIR, "dataset", "materials.csv")
+rules_path = os.path.join(BASE_DIR, "dataset", "compatibility_rules.csv")
+waste_listings_path = os.path.join(BASE_DIR, "dataset", "waste_listings.csv")
 # Load datasets
 companies = pd.read_csv(companies_path).fillna("")
 materials = pd.read_csv(materials_path).fillna("")
